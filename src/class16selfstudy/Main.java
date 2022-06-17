@@ -19,4 +19,6 @@ public class Main {
             Main number = new Main();
             System.out.println(number.evenOrOdd(20,15));
         }
-    }
+
+
+}
