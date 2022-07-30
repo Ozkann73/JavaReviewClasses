@@ -1,0 +1,49 @@
+Encapsulation :
+ Making the class fields private and creating  getter, setter methods
+ Why we should care about Encapsulation:
+  1) It provides privacy
+  2)It provides security
+How we can use Encapsulation :
+ We make the class fields private and create methods to access
+  and modify these fields.
+
+  Rules for Setter Method:
+  1)They should be public
+  2)They have void as return type
+  3)They should have parameter of same type as field
+
+  Rules for Getter Methods :
+  1)They should be public
+  2)Their return type should be the same as fields return type
+  3) They should not take any parameters
+ class BankAccount{
+    private String userName ;
+    private String password;
+    private double balance;
+
+    public void setUsername (String userName){
+    this.username=userName;
+    }
+
+    public void setPassword (String password){
+        this.password=password;
+        }
+
+    public void setBalance (double balance){
+         this.balance=balance;
+         }
+
+    public String getUserName(){
+    return userName;
+    }
+
+     public String getPassword(){
+        return password;
+        }
+
+     public String getPassword(){
+             return password;
+             }
+
+
+ }

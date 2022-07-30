@@ -1,0 +1,41 @@
+What is List in Java:
+  1)It allows us to store duplicates.
+  2)Insertion order is maintained.
+
+ArrayList and LinkedList are the two most popular implementations of List interface.
+
+ArrayList :
+   When most of the operations are related to retrieval then we should use ArrayList
+
+LinkedList :
+   When most of the operations are related to manupilation (adding and deleting from
+   anywhere inside the list) we use LinkedList.
+
+===============================================================================
+Set :
+   Sets does not allow duplicate values.
+ Most popular classes that have implemented Set interface.
+  1) HashSet 2)LinkedHashSet 3) TreeSet
+ HashSet :
+  Upside : Insertion and retrieval is fastest of all sets
+  DownSide: Insertion order is not maintained.
+ LinkedHashSet :
+   Upside : Insertion order is maintained
+   DownSide : Insertion order is slower than HashSet but faster then TreeSet.
+              Retrieval speed is the slowest of all. It goes through all nodes
+ TreeSet :
+   Upside : Stores the data in the sorted dorm
+   DownSide : Insertion speed is the slowest of all
+              Retrieval speed better than LinkedHashSet but slower than HashSet
+==================================================================================
+Maps :
+  Map allows us to store key value pairs.
+ 1)HashMap  2) LinkedHAshMap  3)TreeMap
+
+HashMap :
+   Upside : fastest when it comes to insertion and retrieval
+   DownSide : Insertion order is not maintained
+LinkedHashMap:
+   Upside : Insertion order is maintained
+   DownSide : Insertion order is slower than HashMap but faster then TreeMap.
+              Retrieval speed is the slowest of all. It goes through all nodes
